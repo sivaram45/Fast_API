@@ -1,6 +1,8 @@
-from fastapi import FastAPI,HTTPException
-
-
+from fastapi import FastAPI,HTTPException 
+## This is a simple FastAPI application that allows you to 
+# create, read, update, and delete items in a list.
+#  The items are stored in memory, and the API provides endpoints for managing them. 
+# You can run this code using Uvicorn or any ASGI server to test the functionality of the API.
 app = FastAPI()
 
 
